@@ -13,7 +13,7 @@ from stable_baselines3.common.evaluation import evaluate_policy
 from stable_baselines3 import SAC # Replace PPO with your algorithm
 import gymnasium as gym
 #from gymnasium.wrappers import Monitor
-import gym_panda
+import env
 import pandas as pd
 import matplotlib.pyplot as plt
 import csv
