@@ -11,7 +11,7 @@ Configure MODEL_PATH, EXCEL_OUT, ENV_NAME, N_EVAL_EPISODES, and SEED as needed.
 """
 import os
 import gymnasium as gym
-import gym_panda
+import env
 import torch
 import numpy as np
 import pandas as pd
