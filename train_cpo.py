@@ -33,7 +33,7 @@ import random
 import time
 import pandas as pd
 from tqdm import tqdm
-import gym_panda
+import env
 
 
 SEED = 5
