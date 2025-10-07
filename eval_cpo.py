@@ -19,7 +19,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import os
-import gym_panda
+import env
 
 # === CONFIG ===
 MODEL_PATH = "/path/to/folder/file_name"
