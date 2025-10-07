@@ -39,7 +39,7 @@ np.random.seed(SEED)                        # NumPy RNG
 torch.manual_seed(SEED)                     # PyTorch CPU RNG
 
 import gymnasium as gym
-import gym_panda
+import env
 from stable_baselines3 import SAC
 from stable_baselines3.common.monitor import Monitor
 from stable_baselines3.common.callbacks import BaseCallback
