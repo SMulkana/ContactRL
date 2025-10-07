@@ -22,7 +22,7 @@ Author: Sundas Rafat Mulkana
 Date: 3 August 2025
 """
 
-import gymnasium as gym, gym_panda
+import gymnasium as gym, env
 from stable_baselines3 import SAC
 from stable_baselines3.common.monitor import Monitor
 from stable_baselines3.common.callbacks import BaseCallback, CallbackList
